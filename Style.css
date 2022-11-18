@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Kumbh Sans';
+    background-color: hsl(185, 75%, 39%);
+}
+
+p{
+    display: inline-block;
+}
+
+.circle1{
+    display: inline-block;
+    width: 100%;
+    height: 378px;
+    background-image: url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: -20rem -38rem;
+}
+
+.circle2{
+    display: inline-block;
+    width: 100%;
+    height: 253px;
+    padding-bottom: 0;
+    background-image: url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: 42rem 0rem;
+}
+
+.section1{
+    width: 375px;
+    text-align: center;
+    background-color: #fff;
+    position:absolute;
+    top: 30%;
+    left: 36%;
+    border-radius: 20px;
+}
+
+.section1 .part1{
+    height: 150px;
+    background-image: url(images/bg-pattern-card.svg);
+    border-radius: 20px 20px 0 0;
+}
+
+.section1 .user-photo{
+    padding: 10px;
+    background-color: #fff;
+    clip-path:circle(50%);
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    left: 131px;
+}
+
+.name, .num-followers, .num-likes, .num-photos{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.section1 .part2{
+    margin: 63px auto 20px;
+}
+
+.part2 .num-name{
+    color: hsl(227, 10%, 46%);
+}
+
+.part2 .city{
+    display: block;
+    margin: 10px auto 0;
+    color: hsl(227, 10%, 46%);
+    font-size: 15px;
+}
+
+.section1 .part3{
+    padding: 25px;
+    text-align: center;
+    display: flex;
+}
+
+.sec-right, .sec-center, .sec-left{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+
+.section1 .part3 p:nth-last-child(even){
+    font-weight: bolder;
+    display: block;
+}
+
+.section1 .part3 p:nth-last-child(odd){
+    color: hsl(227, 10%, 46%);
+    font-weight: 100;
+    font-size: 14px;
+}
